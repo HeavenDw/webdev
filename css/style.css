@@ -435,6 +435,11 @@ body.lock {
   }
 }
 
+input:required {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .btn {
   display: inline-block;
   padding: 20px 15px;

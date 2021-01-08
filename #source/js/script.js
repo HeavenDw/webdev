@@ -111,4 +111,17 @@ $('.team__slider').slick({
 });
 // /team slider
 
+/* scrollTo start */
+// click on any link
+$('a').click(function(){
+	if (typeof $(this).attr('scrollto') == typeof undefined) {
+		return;
+	}
+	event.preventDefault();
+	var cls  = $(this).attr('scrollto');
+	var top = $(cls).offset().top - $('.header').height();
+	$('body,html').animate({scrollTop: top}, 800);
+});
+/* scrollTo end */
+
 baguetteBox.run('.gallery');
