@@ -1,2 +1,2 @@
 # web-development-project
-One page website. HTML5, SCSS, Jquery.
+Adaptive one page website. HTML5, SCSS, Jquery.
