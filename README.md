@@ -1,2 +1,8 @@
 # web-development-project
-Adaptive one page website. HTML5, SCSS, Jquery.
+<b>https://heavendw.ru/webdev/ - live demo</b>
+<ul>
+<li>Adaptive landing page website</li>
+<li>HTML5</li>
+<li>SCSS</li>
+<li>Jquery</li>
+</ul>
